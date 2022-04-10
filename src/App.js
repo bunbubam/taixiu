@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Demoprops from './buoi3/demoProps';
+import Main from './projectGame/main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Hạn chế gọi nhiều Component trong App.js */}
+      {/* Nên sử dụng Component child nhiều hơn */}
+      {/* <Demoprops/> */}
+      <Main/>
     </div>
   );
 }

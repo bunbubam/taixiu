@@ -1,0 +1,3 @@
+//content.js là nơi chứa các yêu cầu của user. VD: đặt hàng, xóa hàng, thêm giỏ hàng...
+export const PLAY_GAME = "PLAY_GAME";
+export const DAT_CUOC = "DAT_CUOC";
