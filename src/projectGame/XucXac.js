@@ -9,7 +9,7 @@ class XucXac extends Component {
         });
     }
     render() {
-        console.log(this.props.xucXac);
+        // console.log(this.props.xucXac);
         return (
             <div>
                 <button className="btn btn-success" onClick={() => { this.props.playGame() }}>Play game</button>
